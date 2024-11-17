@@ -19,16 +19,16 @@ import { getAuth } from "firebase/auth";
 import { useNavigation } from "@react-navigation/native";
 
 // Your Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDxWTmBsslJZ80e7mEbDBtCi7FNlrMSuJE",
-  authDomain: "ecanteen-4ab1b.firebaseapp.com",
-  databaseURL: "https://ecanteen-4ab1b-default-rtdb.firebaseio.com",
-  projectId: "ecanteen-4ab1b",
-  storageBucket: "ecanteen-4ab1b.firebasestorage.app",
-  messagingSenderId: "65494167458",
-  appId: " 1:65494167458:web:d3cdfbbafce02a6c5b8cfb",
-  measurementId: "G-P52Q86NJ83",
-};
+// const firebaseConfig = {
+//   // apiKey: "AIzaSyDxWTmBsslJZ80e7mEbDBtCi7FNlrMSuJE",
+//   authDomain: "ecanteen-4ab1b.firebaseapp.com",
+//   // databaseURL: "https://ecanteen-4ab1b-default-rtdb.firebaseio.com",
+//   projectId: "ecanteen-4ab1b",
+//   storageBucket: "ecanteen-4ab1b.firebasestorage.app",
+//   messagingSenderId: "65494167458",
+//   appId: " 1:65494167458:web:d3cdfbbafce02a6c5b8cfb",
+//   measurementId: "G-P52Q86NJ83",
+// };
 
 // Initialize Firebase
 let app;
